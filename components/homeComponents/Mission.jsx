@@ -1,5 +1,6 @@
 import Image from "next/image"
-import mission from '../public/images/mission.png'
+import mission from '../../public/images/mission.png'
+
 
 const Mission = () => {
   return (

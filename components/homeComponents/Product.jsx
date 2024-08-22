@@ -1,7 +1,8 @@
-import Image from "next/image"
-import sleepkit from '../public/images/sleepkit.png'
-import btn1 from '../public/images/btn1.png'
-import Title from "./globalComponents/Title";
+import Image from "next/image";
+import sleepkit from '../../public/images/sleepkit.png'
+import btn1 from '../../public/images/btn1.png'
+import Title from "../globalComponents/Title";
+
 
 const Product = () => {
   return (
@@ -10,12 +11,13 @@ const Product = () => {
         <Image src={sleepkit} alt="sleep kit" height={580} width={775} />
       </div>
       <div className="flex flex-col gap-8 pt-24">
-        <Title title="Shop Now"/>
+        <Title title="Shop Now" />
         <div className="">
           <p className="text-[#213842] w-[421px] text-[16px] font-normal">
-            Our Personal Diffuser is an aromatherapy device <br /> that contains a
-            blend of melatonin, lavender, and chamomile. A few breaths of our
-            plant-based <br /> essential oil mist will mellow you out, quiet the mind, <br />
+            Our Personal Diffuser is an aromatherapy device <br /> that contains
+            a blend of melatonin, lavender, and chamomile. A few breaths of our
+            plant-based <br /> essential oil mist will mellow you out, quiet the
+            mind, <br />
             and lull you to bed.
           </p>
         </div>
@@ -25,6 +27,6 @@ const Product = () => {
       </div>
     </div>
   );
-}
+};
 
-export default Product
+export default Product;

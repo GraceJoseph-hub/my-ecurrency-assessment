@@ -1,6 +1,6 @@
-import btn1 from '../public/images/btn1.png'
-import Image from 'next/image';
-import Title from './globalComponents/Title'
+import btn1 from '../../public/images/btn1.png'
+import Image from "next/image";
+import Title from '../globalComponents/Title';
 
 const VisitShop = () => {
   return (
@@ -15,6 +15,6 @@ const VisitShop = () => {
       <Image src={btn1} alt="shop button" />
     </div>
   );
-}
+};
 
-export default VisitShop
+export default VisitShop;

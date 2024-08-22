@@ -1,5 +1,6 @@
 import Image from "next/image"
-import group5 from '../public/images/group5.png'
+import group5 from '../../public/images/group5.png'
+
 
 const HappyCustomers = () => {
   return (

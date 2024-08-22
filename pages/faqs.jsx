@@ -1,6 +1,7 @@
-import Layout from '@/components/Layout'
-import Hero from '@/components/Hero'
-import Search from '@/components/faqComponents/Search';
+import Layout from "@/components/Layout";
+import Hero from "@/components/homeComponents/Hero";
+import Search from "@/components/faqComponents/Search";
+import FaqQuestions from "@/components/faqComponents/FaqQuestions";
 
 const faqs = () => {
   return (
@@ -13,8 +14,9 @@ const faqs = () => {
       >
         <Search />
       </Hero>
+      <FaqQuestions />
     </Layout>
   );
-}
+};
 
-export default faqs
+export default faqs;
