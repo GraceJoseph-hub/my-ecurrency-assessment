@@ -3,7 +3,7 @@ import Layout from "@/components/Layout";
 import banner from "../public/images/banner.png";
 import AboutProduct from "@/components/shopComponents/AboutProduct";
 import HorizontalRule from "@/components/globalComponents/HorizontalRule";
-import ClientsReviews from "@/components/globalComponents/ClientsReviews";
+import ClientsReviews from "@/components/homeComponents/ClientsReviews";
 
 const shop = () => {
   return (

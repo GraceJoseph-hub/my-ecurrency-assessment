@@ -1,6 +1,5 @@
-import btn1 from '../../public/images/btn1.png'
-import Image from "next/image";
 import Title from '../globalComponents/Title';
+import Button from '../globalComponents/Button';
 
 const VisitShop = () => {
   return (
@@ -12,7 +11,7 @@ const VisitShop = () => {
         plant-based essential oil mist will mellow you out, quiet the mind, and
         lull you to bed.
       </p>
-      <Image src={btn1} alt="shop button" />
+      <Button text="Visit Shop"/>
     </div>
   );
 };

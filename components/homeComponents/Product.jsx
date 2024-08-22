@@ -1,14 +1,42 @@
 import Image from "next/image";
-import sleepkit from '../../public/images/sleepkit.png'
-import btn1 from '../../public/images/btn1.png'
+import sleeper from '../../public/images/sleeper.png'
 import Title from "../globalComponents/Title";
+import Button from "../globalComponents/Button";
 
 
 const Product = () => {
+  // grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4
   return (
-    <div className="flex pl-[1.5%]">
-      <div className="h-[580px] w-[775px]">
-        <Image src={sleepkit} alt="sleep kit" height={580} width={775} />
+    <div className="flex pb-32">
+      <div className="relative">
+        <div className="h-[580px] w-[775px]">
+          <Image src={sleeper} alt="sleep kit" height={580} width={775} />
+        </div>
+        <div className="absolute bg-white left-[43%] top-[75%] rounded-md shadow-2xl px-4 py-6">
+          <div className="flex flex-col gap-2">
+            <p>
+              😊{" "}
+              <span className="italic ml-4">Promotes calm and relaxation.</span>
+            </p>
+
+            <p>
+              💤
+              <span className="italic ml-4">
+                Inhalation allows for a rapid effect.
+              </span>
+            </p>
+            <p>
+              ✅
+              <span className="italic ml-4">
+                100% drug-free, plant-based ingredients.
+              </span>
+            </p>
+            <p>
+              ‍⚕️ <span className="italic ml-4">3rd-party lab tested.</span>
+            </p>
+            {/*  */}
+          </div>
+        </div>
       </div>
       <div className="flex flex-col gap-8 pt-24">
         <Title title="Shop Now" />
@@ -21,9 +49,7 @@ const Product = () => {
             and lull you to bed.
           </p>
         </div>
-        <div>
-          <Image src={btn1} alt="shop button" />
-        </div>
+        <Button text="Visit Shop" />
       </div>
     </div>
   );
