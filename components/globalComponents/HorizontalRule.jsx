@@ -2,9 +2,9 @@ import Image from "next/image"
 import rectangle from '../../public/images/rectangle.png'
 
 
-const HorizontalRule = () => {
+const HorizontalRule = ({className}) => {
   return (
-    <div className="py-10 px-[11%]">
+    <div className={`py-10 px-[11%] ${className}`}>
       <Image src={rectangle} alt="horizontal rule" width={1110} height={1} />
     </div>
   );

@@ -1,18 +1,25 @@
 import Hero from "@/components/Hero";
 import Layout from "@/components/Layout";
 import HappyCustomers from "@/components/HappyCustomers";
-import ClientsReviews from "@/components/ClientsReviews";
+import ClientsReviews from "@/components/globalComponents/ClientsReviews";
 import Product from "@/components/Product";
 import Mission from "@/components/Mission";
 import VisitShop from "@/components/VisitShop";
 import HorizontalRule from "@/components/globalComponents/HorizontalRule";
 import Cards from "@/components/Cards";
+import heroBg from '../public/images/heroBg.png'
+import group3 from '../public/images/group3.png'
 
 export default function Home() {
   return (
     <Layout>
       {/* <div > */}
-      <Hero />
+      <Hero
+        backgroundImage={heroBg}
+        imageSrc={group3}
+        altText="Hero banner"
+        showImage={true}
+      />
       <HappyCustomers />
       <ClientsReviews />
       <Product />
