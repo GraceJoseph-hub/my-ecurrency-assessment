@@ -6,7 +6,7 @@ const Search = () => {
   return (
     <div className="flex flex-col gap-8">
       {/* eslint-disable-next-line react/no-unescaped-entities */}
-      <p>We're here to help you</p>
+      <p>We&apos;re here to help you</p>
       <Title
         title="How can we assist?"
         className="font-semibold text-[60px] text-[#12305B]"
