@@ -11,7 +11,7 @@ const VisitShop = () => {
         plant-based essential oil mist will mellow you out, quiet the mind, and
         lull you to bed.
       </p>
-      <Button text="Visit Shop"/>
+      <Button text="Visit Shop" className="px-10 py-2"/>
     </div>
   );
 };

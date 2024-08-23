@@ -2,8 +2,8 @@ import Hero from "@/components/homeComponents/Hero";
 import Layout from "@/components/Layout";
 import mainBg2 from '../public/images/mainBg2.png'
 import AboutProduct from "@/components/shopComponents/AboutProduct";
-import ClientsReviews from "@/components/globalComponents/ClientsReviews";
 import BannerText from "@/components/globalComponents/BannerText";
+import Cards from "@/components/homeComponents/Cards";
 
 const shop = () => {
   return (
@@ -15,7 +15,7 @@ const shop = () => {
         />
       </Hero>
       <AboutProduct />
-      <ClientsReviews className="pt-[2rem] pb-[5rem] border-t" />
+      <Cards isHomePage={false}/>
     </Layout>
   );
 };

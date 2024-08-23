@@ -8,7 +8,7 @@ import SmallCard from "../globalComponents/SmallCard";
 const Product = () => {
   // 
   return (
-    <div className="flex flex-col justify-center items-center w-full pt-[16rem] md:py-[9.75rem] lg:flex-row max-[768px]:pt-0">
+    <div className="flex flex-col items-center w-full pt-[2rem] pb-[5rem] lg:flex-row max-[768px]:pt-0">
       <div className="relative">
         <div className="h-full w-[full">
           <Image src={sleeper} alt="sleep kit" height={580} width={775} />

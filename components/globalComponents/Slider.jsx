@@ -1,12 +1,15 @@
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay } from "swiper/modules";
+import { Autoplay, Scrollbar } from "swiper/modules";
 import "swiper/css";
+import "swiper/css/scrollbar";
+
 import Card from "./Card";
 import cardData from "./cardData";
 
+
 const Slider = () => {
   return (
-    <div className="pl-[11%] pb-[8.75rem] mt-12 max-[768px]:mt-[6rem]">
+    <div className="pl-[11%] pb-[3.75rem] mt-12 max-[768px]:mt-[6rem]">
       <Swiper
         spaceBetween={30}
         onSlideChange={() => console.log("slide change")}
@@ -15,6 +18,7 @@ const Slider = () => {
           delay: 2500,
           disableOnInteraction: false,
         }}
+        // scrollbar={true}
         breakpoints={{
           1024: {
             slidesPerView: 4,
@@ -26,14 +30,20 @@ const Slider = () => {
             slidesPerView: 1,
           },
         }}
-        modules={[Autoplay]}
+        modules={[Autoplay, Scrollbar]}
+        className="pb-[50px]"
       >
         {cardData.map((info) => (
-          <SwiperSlide>
-            <Card text={info.text} title={info.title} className="max-[768px]:h-[150px]"/>
+          <SwiperSlide className="pb-[50px]">
+            <Card
+              text={info.text}
+              title={info.title}
+              className="max-[768px]:h-[150px]"
+            />
           </SwiperSlide>
         ))}
       </Swiper>
+      <div className="h-[1px] max-w-[1110px] bg-[#213842]"></div>
     </div>
   );
 };

@@ -1,7 +1,6 @@
 import Hero from "@/components/homeComponents/Hero";
 import Layout from "@/components/Layout";
 import HappyCustomers from "@/components/homeComponents/HappyCustomers";
-import ClientsReviews from "@/components/globalComponents/ClientsReviews";
 import Product from "@/components/homeComponents/Product";
 import Mission from "@/components/homeComponents/Mission";
 import VisitShop from "@/components/homeComponents/VisitShop";
@@ -22,11 +21,10 @@ export default function Home() {
       </Hero>
       <HappyCustomers />
       <Slider />
-      {/* <ClientsReviews /> */}
       <Product />
       <Mission />
       <VisitShop />
-      <Cards />
+      <Cards isHomePage={true}/>
     </Layout>
   );
 }

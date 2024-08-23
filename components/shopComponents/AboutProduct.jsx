@@ -6,7 +6,7 @@ import Button from "../globalComponents/Button";
 
 const AboutProduct = () => {
   return (
-    <div className="flex justify-center items-center pt-[8%] pb-[12%]">
+    <div className="flex justify-center items-center pt-[8%] pb-[12%] max-[748px]:flex-col">
       <div className="w-1/2">
         <Image src={sleeper} alt="sleep kit" width={1101} height={519} />
       </div>

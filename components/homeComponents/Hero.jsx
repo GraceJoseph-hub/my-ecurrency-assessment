@@ -26,20 +26,20 @@ const Hero = ({
         <div className="absolute top-[30%] left-[11%]">{children}</div>
       )}
       {showImage && backgroundImage && (
-        <div className="absolute -bottom-[12.8rem] right-0 w-[80%] mx-auto h-max grid grid-cols-1 gap-10 bg-white py-6 px-10 shadow-2xl md:-bottom-[4.8rem] md:grid-cols-2 lg:grid-cols-3 lg:-bottom-[3.8rem] xl:grid-cols-5 xl:-bottom-[2.75rem] ">
-          <div className="w-full bg-red-500">
+        <div className="absolute -bottom-[12.8rem] right-0 w-[80%] grid grid-cols-1 gap-10 bg-white py-6 px-10 shadow-2xl md:-bottom-[4.8rem] md:grid-cols-2 lg:grid-cols-3 lg:-bottom-[3.8rem] xl:grid-cols-5 xl:-bottom-[2.75rem] ">
+          <div className="w-full">
             <Image src={google} alt="Google icon" />
           </div>
-          <div className="w-full bg-green-400">
+          <div className="w-full">
             <Image src={forbes} alt="Forbes icon" />
           </div>
-          <div className="w-full bg-blue-600">
+          <div className="w-full">
             <Image src={bloomberg} alt="Bloomberg icon" />
           </div>
-          <div className="w-full bg-pink-500">
+          <div className="w-full">
             <Image src={sleepReview} alt="Sleep review" />
           </div>
-          <div className="w-full bg-purple-600">
+          <div className="w-full">
             <Image src={influencive} alt="Influencive" />
           </div>
         </div>
