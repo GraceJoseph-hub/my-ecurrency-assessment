@@ -6,13 +6,13 @@ import Button from "../globalComponents/Button";
 
 const AboutProduct = () => {
   return (
-    <div className="flex justify-center items-center pt-[8%] pb-[12%] max-[748px]:flex-col">
+    <div className="flex justify-center items-center pt-[8%] pb-[12%] max-[748px]:flex-col font-Poppins">
       <div className="w-1/2">
         <Image src={sleeper} alt="sleep kit" width={1101} height={519} />
       </div>
       <div className="flex flex-col gap-[2rem] w-1/2 mt-[4rem]">
         <Title title="About Product" />
-        <p className="text-[#213842]">
+        <p className="text-[#213842] font-Poppins">
           Our Personal Diffuser is an aromatherapy device <br /> that contains a
           blend of melatonin, lavender, and <br /> chamomile. A few breaths of
           our plant-based <br /> essential oil mist will mellow you out, quiet
@@ -22,7 +22,7 @@ const AboutProduct = () => {
 
         <SmallCard />
 
-        <div className="flex flex-col gap-2">
+        <div className="flex flex-col gap-2 font-Poppins">
           <div className="flex gap-[5.1rem]">
             <p>Price</p> <span>unit</span>
           </div>

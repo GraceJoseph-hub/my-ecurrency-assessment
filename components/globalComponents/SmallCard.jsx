@@ -1,6 +1,8 @@
 const SmallCard = ({className}) => {
   return (
-    <div className={`flex flex-col gap-2 text-[#4D533C] ${className}`}>
+    <div
+      className={`flex flex-col gap-2 text-[#4D533C] font-Poppins ${className}`}
+    >
       <p>
         😊 <span className="italic ml-4">Promotes calm and relaxation.</span>
       </p>

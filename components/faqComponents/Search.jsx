@@ -4,7 +4,7 @@ import searchIcon from '../../public/images/searchIcon.png'
 
 const Search = () => {
   return (
-    <div className="flex flex-col gap-8 max-[500px]:pr-[5%]">
+    <div className="flex flex-col gap-8 max-[500px]:pr-[5%] font-Poppins">
       <p>We&apos;re here to help you</p>
       <Title
         title="How can we assist?"

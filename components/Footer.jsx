@@ -18,7 +18,7 @@ const Footer = () => {
 
 
   return (
-    <footer className="relative bg-[#043C50] py-12 text-white text-sm">
+    <footer className="relative bg-[#043C50] py-12 text-white text-sm font-Poppins">
       {/* Logo Section */}
       <div className="absolute top-8 left-1/2 transform -translate-x-1/2">
         <div className="text-center">

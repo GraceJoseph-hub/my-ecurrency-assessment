@@ -8,7 +8,7 @@ import cardData from "./cardData";
 
 const Slider = () => {
   return (
-    <div className="pl-[11%] pb-[3.75rem] mt-12 max-[768px]:mt-[6rem]">
+    <div className="pl-[11%] pb-[3.75rem] mt-12 max-[768px]:mt-[6rem] font-Poppins">
       <Swiper
         spaceBetween={30}
         onSlideChange={() => console.log("slide change")}

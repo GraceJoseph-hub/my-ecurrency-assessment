@@ -6,7 +6,7 @@ import eclipse from '../../public/images/eclipse.png'
 
 const HappyCustomers = () => {
   return (
-    <div className="flex flex-col w-full px-[11%] pt-[16rem] gap-[160px] md:py-[9.75rem] lg:flex-row">
+    <div className="flex flex-col w-full px-[11%] pt-[16rem] gap-[160px] md:py-[9.75rem] lg:flex-row font-Poppins">
       <div className="flex flex-col gap-6 w-full lg:w-1/2">
         <p className="text-[#12305B] text-sm">Our Amazing Story</p>
         <div className="flex flex-col gap-[3rem]">

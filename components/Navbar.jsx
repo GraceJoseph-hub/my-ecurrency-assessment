@@ -23,7 +23,7 @@ const Navbar = () => {
 
   const isActive = (path) => router.pathname === path;
   return (
-    <div className="absolute top-0 left-0 flex items-center gap-[10.625rem] py-4 px-[11.5%] z-50 max-[768px]:justify-between max-[768px]:w-full">
+    <div className="absolute top-0 left-0 flex items-center gap-[10.625rem] py-4 px-[11.5%] z-50 max-[768px]:justify-between max-[768px]:w-full font-Poppins">
       <div>
         <Image src={logo} alt="sleepstiq logo" width={92} height={62} />
       </div>

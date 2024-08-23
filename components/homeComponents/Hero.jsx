@@ -14,7 +14,7 @@ const Hero = ({
 }) => {
   return (
     <div
-      className={`relative bg-cover h-[811px] w-full ${className}`}
+      className={`relative bg-cover font-Poppins h-[811px] w-full ${className}`}
       style={{
         backgroundImage: backgroundImage
           ? `url(${backgroundImage.src})`

@@ -11,9 +11,11 @@ import testimonialData from "../globalComponents/TestimonialData";
 const Cards = ({isHomePage}) => {
   return (
     <div>
-      <div className="flex flex-col gap-6 pt-10 pl-[11%]">
-      <div className="h-[1px] max-w-[1110px] bg-[#213842]"></div>
-        {isHomePage && <Title title="Product Reviews" className="text-[#4D533C]" />}
+      <div className="flex flex-col gap-6 pt-10 pl-[11%] font-Poppins">
+        <div className="h-[1px] max-w-[1110px] bg-[#213842]"></div>
+        {isHomePage && (
+          <Title title="Product Reviews" className="text-[#4D533C]" />
+        )}
 
         <div className="pb-[8.75rem] mt-12 max-[768px]:mt-[6rem]">
           <Swiper
