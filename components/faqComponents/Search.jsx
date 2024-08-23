@@ -5,6 +5,7 @@ import searchIcon from '../../public/images/searchIcon.png'
 const Search = () => {
   return (
     <div className="flex flex-col gap-8">
+      {/* eslint-disable-next-line react/no-unescaped-entities */}
       <p>We're here to help you</p>
       <Title
         title="How can we assist?"

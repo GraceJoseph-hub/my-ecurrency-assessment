@@ -8,6 +8,7 @@ const Mission = () => {
     <div className="flex gap-20 pl-[11%] pt-8">
       <div className="flex flex-col gap-10 mt-10">
         <Title title="Our Mission" />
+        {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p>
           We started Sleepstiq with 1 simple goal: to be your best friend at
           bedtime. We, just like you, deal with stress, unease, and trouble

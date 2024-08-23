@@ -19,10 +19,11 @@ const FaqQuestions = () => {
       </div>
       <div className="flex-1">
         {faqData.map((faq, index) => (
-          <div className="">
+          <div key={faq.id}>
             <button
-              key={faq.id}
-              className={`${index === 0 ? 'border-t border-b' : 'border-b'} w-full text-left text-[#12305B] text-lg cursor-pointer py-3`}
+              className={`${
+                index === 0 ? "border-t border-b" : "border-b"
+              } w-full text-left text-[#12305B] text-lg cursor-pointer py-3`}
               onClick={() => handleFAQClick(faq.id)}
             >
               {faq.question}
