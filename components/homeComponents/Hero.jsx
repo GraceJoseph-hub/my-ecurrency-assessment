@@ -10,8 +10,6 @@ import influencive from '../../public/images/influencive.png'
 const Hero = ({
   backgroundImage,
   backgroundColor,
-  imageSrc,
-  altText,
   showImage,
   children,
   className
@@ -28,7 +26,7 @@ const Hero = ({
     >
       {showImage && (
         <div className="absolute top-[47.75rem] right-0 w-[80%] bg-white py-6 px-10 shadow-2xl">
-          <div className="flex justify-between sm:flex-wrap">
+          <div className="flex justify-between items-center sm:flex-wrap">
             <Image src={google} alt="Google icon" />
             <Image src={forbes} alt="Forbes icon" />
             <Image src={bloomberg} alt="Bloomberg icon" />

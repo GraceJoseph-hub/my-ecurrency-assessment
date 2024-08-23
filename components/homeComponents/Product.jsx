@@ -2,6 +2,7 @@ import Image from "next/image";
 import sleeper from '../../public/images/sleeper.png'
 import Title from "../globalComponents/Title";
 import Button from "../globalComponents/Button";
+import SmallCard from "../globalComponents/SmallCard";
 
 
 const Product = () => {
@@ -13,29 +14,7 @@ const Product = () => {
           <Image src={sleeper} alt="sleep kit" height={580} width={775} />
         </div>
         <div className="absolute bg-white left-[43%] top-[75%] rounded-md shadow-2xl px-4 py-6">
-          <div className="flex flex-col gap-2">
-            <p>
-              😊{" "}
-              <span className="italic ml-4">Promotes calm and relaxation.</span>
-            </p>
-
-            <p>
-              💤
-              <span className="italic ml-4">
-                Inhalation allows for a rapid effect.
-              </span>
-            </p>
-            <p>
-              ✅
-              <span className="italic ml-4">
-                100% drug-free, plant-based ingredients.
-              </span>
-            </p>
-            <p>
-              ‍⚕️ <span className="italic ml-4">3rd-party lab tested.</span>
-            </p>
-            {/*  */}
-          </div>
+          <SmallCard />
         </div>
       </div>
       <div className="flex flex-col gap-8 pt-24">
