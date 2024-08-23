@@ -1,6 +1,4 @@
-
-
-const cardData = [
+const testimonialData = [
   {
     id: 1,
     text: "Love it! I have trouble falling asleep and this knocked me right out. Will be buying more.",
@@ -9,20 +7,20 @@ const cardData = [
   },
   {
     id: 2,
-    text: "I work shift work. Swinging from days to nights is sometimes brutal for sleep. Thank you Sleepstiq.",
-    title: "Eunice Oliver",
+    text: "It really helps me fall right to sleep compared to melatonin pills..",
+    title: "Javier Mendez",
     // ratings: "../../public/images/star.png",
   },
   {
     id: 3,
-    text: "It’s a really good product and helps me sleep better at night!",
-    title: "Laura Davies",
+    text: "I've tried a lot of things to sleep but none of those worked, so I tried Cloudy and wow! I sleep like a baby now.",
+    title: "Naomi Nwazurike",
     // ratings: "../../public/images/star.png",
   },
   {
     id: 4,
-    text: "Helps me relax and remember to breathe. Stress level definitely goes down.",
-    title: "Jane Bocks",
+    text: "I have been falling asleep faster and sleeping thru the night.",
+    title: "Nate Jacobs",
     // ratings: "../../public/images/star.png",
   },
   {
@@ -45,4 +43,4 @@ const cardData = [
   },
 ];
 
-export default cardData
+export default testimonialData;

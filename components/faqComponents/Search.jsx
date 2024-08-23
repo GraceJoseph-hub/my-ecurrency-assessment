@@ -4,14 +4,14 @@ import searchIcon from '../../public/images/searchIcon.png'
 
 const Search = () => {
   return (
-    <div className="flex flex-col gap-8">
+    <div className="flex flex-col gap-8 max-[500px]:pr-[5%]">
       {/* eslint-disable-next-line react/no-unescaped-entities */}
       <p>We&apos;re here to help you</p>
       <Title
         title="How can we assist?"
         className="font-semibold text-[60px] text-[#12305B]"
       />
-      <div className="flex items-center gap-5 w-[48rem] bg-white px-10 py-3 mt-2 rounded-md">
+      <div className="flex items-center gap-5 max-w-[48rem] bg-white px-10 py-3 mt-2 rounded-md">
         <Image src={searchIcon} alt="search icon" />
         <input
           type="search"

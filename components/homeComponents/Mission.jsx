@@ -5,8 +5,8 @@ import Title from "../globalComponents/Title";
 
 const Mission = () => {
   return (
-    <div className="flex gap-20 pl-[11%] pt-8">
-      <div className="flex flex-col gap-10 mt-10">
+    <div className="flex gap-20 pl-[11%] pt-8 max-[768px]:flex-col">
+      <div className="flex flex-col gap-10 mt-10 max-[768px]:pr-[10%]">
         <Title title="Our Mission" />
         {/* eslint-disable-next-line react/no-unescaped-entities */}
         <p>
@@ -34,7 +34,7 @@ const Mission = () => {
           </div>
         </div>
       </div>
-      <Image src={sleepWoman} alt="mission statement" />
+      <Image src={sleepWoman} alt="mission statement" width={735} height={550} className="max-[1200px]:w-[500px] max-[900px]:w-[300px] max-[768px]:w-auto"/>
     </div>
   );
 }

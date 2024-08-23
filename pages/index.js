@@ -8,6 +8,7 @@ import VisitShop from "@/components/homeComponents/VisitShop";
 import Cards from "@/components/homeComponents/Cards";;
 import mainBg from '../public/images/mainBg.png'
 import BannerText from "@/components/globalComponents/BannerText";
+import Slider from "@/components/globalComponents/Slider";
 
 export default function Home() {
   return (
@@ -20,7 +21,8 @@ export default function Home() {
         />
       </Hero>
       <HappyCustomers />
-      <ClientsReviews />
+      <Slider />
+      {/* <ClientsReviews /> */}
       <Product />
       <Mission />
       <VisitShop />

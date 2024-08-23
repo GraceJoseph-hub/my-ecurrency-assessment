@@ -6,21 +6,21 @@ import SmallCard from "../globalComponents/SmallCard";
 
 
 const Product = () => {
-  // grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4
+  // 
   return (
-    <div className="flex pb-32">
+    <div className="flex flex-col justify-center items-center w-full pt-[16rem] md:py-[9.75rem] lg:flex-row max-[768px]:pt-0">
       <div className="relative">
-        <div className="h-[580px] w-[775px]">
+        <div className="h-full w-[full">
           <Image src={sleeper} alt="sleep kit" height={580} width={775} />
         </div>
-        <div className="absolute bg-white left-[43%] top-[75%] rounded-md shadow-2xl px-4 py-6">
-          <SmallCard />
+        <div className="absolute bg-white left-[43%] top-[75%] rounded-md shadow-2xl px-4 py-6 max-[500px]:hidden">
+          <SmallCard className="max-[500px]:text-sm max-[500px]:w-[250px]"/>
         </div>
       </div>
-      <div className="flex flex-col gap-8 pt-24">
+      <div className="flex flex-col gap-8 pt-24 max-[768px]:pl-[11%]">
         <Title title="Shop Now" />
         <div className="">
-          <p className="text-[#213842] w-[421px] text-[16px] font-normal">
+          <p className="text-[#213842] max-w-[421px] text-[16px] font-normal">
             Our Personal Diffuser is an aromatherapy device <br /> that contains
             a blend of melatonin, lavender, and chamomile. A few breaths of our
             plant-based <br /> essential oil mist will mellow you out, quiet the

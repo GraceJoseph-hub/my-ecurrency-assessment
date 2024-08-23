@@ -9,7 +9,7 @@ const FaqQuestions = () => {
   };
   
   return (
-    <div className="flex gap-[80px] px-[5%] py-16">
+    <div className="flex gap-[80px] px-[5%] py-16 max-[800px]:flex-col max-[800px]:justify-center max-[800px]:items-center">
       <div className="flex flex-col gap-5 text-lg text-[#12305B]">
         <p className="font-bold">
           Sleepstiq <span className="bg-[#FFD7231A] py-2 pr-8">Product</span>

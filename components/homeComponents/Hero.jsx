@@ -25,25 +25,21 @@ const Hero = ({
       {backgroundImage && (
         <div className="absolute top-[30%] left-[11%]">{children}</div>
       )}
-      {/* {showImage && backgroundImage && (
-        <div className="absolute top-[47.75rem] right-0 w-[80%] bg-white py-6 px-10 shadow-2xl sm:w-[80%] sm:left-[10%] sm:right-[10%]">
-          <div className="flex justify-between items-center sm:flex-wrap">
-            <Image src={google} alt="Google icon" />
-            <Image src={forbes} alt="Forbes icon" />
-            <Image src={bloomberg} alt="Bloomberg icon" />
-            <Image src={sleepReview} alt="Sleep review" />
-            <Image src={influencive} alt="Influencive" />
-          </div>
-        </div>
-      )} */}
-
       {showImage && backgroundImage && (
-        <div className="absolute top-[47.75rem] right-0 w-[80%] bg-white py-6 px-10 shadow-2xl">
-          <div className="flex justify-between items-center sm:flex-wrap">
+        <div className="absolute -bottom-[12.8rem] right-0 w-[80%] mx-auto h-max grid grid-cols-1 gap-10 bg-white py-6 px-10 shadow-2xl md:-bottom-[4.8rem] md:grid-cols-2 lg:grid-cols-3 lg:-bottom-[3.8rem] xl:grid-cols-5 xl:-bottom-[2.75rem] ">
+          <div className="w-full bg-red-500">
             <Image src={google} alt="Google icon" />
+          </div>
+          <div className="w-full bg-green-400">
             <Image src={forbes} alt="Forbes icon" />
+          </div>
+          <div className="w-full bg-blue-600">
             <Image src={bloomberg} alt="Bloomberg icon" />
+          </div>
+          <div className="w-full bg-pink-500">
             <Image src={sleepReview} alt="Sleep review" />
+          </div>
+          <div className="w-full bg-purple-600">
             <Image src={influencive} alt="Influencive" />
           </div>
         </div>
