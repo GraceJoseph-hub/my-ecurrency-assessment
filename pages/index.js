@@ -5,22 +5,26 @@ import ClientsReviews from "@/components/globalComponents/ClientsReviews";
 import Product from "@/components/homeComponents/Product";
 import Mission from "@/components/homeComponents/Mission";
 import VisitShop from "@/components/homeComponents/VisitShop";
-import Cards from "@/components/homeComponents/Cards";
-import heroBg from "../public/images/heroBg.png";
+import Cards from "@/components/homeComponents/Cards";;
+import mainBg from '../public/images/mainBg.png'
+import BannerText from "@/components/globalComponents/BannerText";
 
 export default function Home() {
   return (
     <Layout>
-      {/* <div > */}
-      <Hero backgroundImage={heroBg} altText="Hero banner" showImage={true} />
+      <Hero backgroundImage={mainBg} altText="Hero banner" showImage={true}>
+        <BannerText
+          isParaTwo={true}
+          paraTwo="With the aid of our Melatonin Sleepstiq, we can assure you that you can get quality sleep."
+          isBtn={true}
+        />
+      </Hero>
       <HappyCustomers />
       <ClientsReviews />
       <Product />
       <Mission />
       <VisitShop />
-      {/* Check the cards and the one in the design. The widths are not aligning. */}
       <Cards />
-      {/* </div> */}
     </Layout>
   );
 }

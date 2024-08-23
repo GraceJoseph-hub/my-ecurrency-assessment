@@ -44,7 +44,11 @@ const Navbar = () => {
 
       {/* Hamburger Menu Icon */}
       <div className="md:hidden cursor-pointer" onClick={toggleMenu}>
-        {menuOpen ? <FaTimes size={24} /> : <FaBars size={24} />}
+        {menuOpen ? (
+          <FaTimes size={24} className="text-black" />
+        ) : (
+          <FaBars size={24} className="text-black" />
+        )}
       </div>
 
       {/* mobile screen */}
@@ -57,7 +61,7 @@ const Navbar = () => {
               className={`${
                 isActive(link.path) ? "text-[#12305B] font-bold" : ""
               }`}
-              onClick={toggleMenu} // Close menu when a link is clicked
+              onClick={toggleMenu}
             >
               {link.name}
             </Link>
