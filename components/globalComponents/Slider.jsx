@@ -32,8 +32,8 @@ const Slider = () => {
         modules={[Autoplay, Scrollbar]}
         className="pb-[50px]"
       >
-        {cardData.map((info) => (
-          <SwiperSlide className="pb-[50px]">
+        {cardData.map((info, index) => (
+          <SwiperSlide className="pb-[50px]" key={index}>
             <Card
               text={info.text}
               title={info.title}
