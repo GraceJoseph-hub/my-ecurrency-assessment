@@ -11,13 +11,13 @@ const SmallCard = ({className}) => {
           Inhalation allows for a rapid effect.
         </span>
       </p>
-      <p>
+      <div>
         ✅
         <span className="italic ml-3">
           100% drug-free, plant-based ingredients.
         </span>
         <p className="italic ml-9 mt-[1px]">3rd-party lab tested.</p>
-      </p>
+      </div>
     </div>
   );
 }
